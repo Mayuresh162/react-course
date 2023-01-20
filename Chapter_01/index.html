@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+</head>
+<body>
+    <!-- Using just HTML -->
+    <!-- <div id="root">
+        <h1>Lets build hello world</h1>
+    </div> -->
+
+    <!-- Using JS to manipulate the DOM -->
+    <!-- <div id="root"></div>
+    <script>
+        const heading = document.createElement('h1');
+
+        heading.innerHTML = 'Lets build html from javascript';
+
+        const div = document.getElementById('root');
+
+        div.appendChild(heading);
+    </script> -->
+
+    <!-- Using React -->
+    <div id="root">
+        <h1>Lets build hello world</h1>
+    </div>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <!-- <script>
+        const heading1 = React.createElement('h1', {}, 'Lets build html from javascript');
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+
+        root.render(heading);
+    </script> -->
+    
+    <!-- <script>
+        const heading1 = React.createElement('h1', {}, 'Lets build html from javascript');
+        const heading2 = React.createElement('h2', {}, 'Its so powerful and cool');
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+
+        root.render([heading1, heading2]);
+    </script> -->
+    <script src="App.js"></script>
+</body>
+</html>
