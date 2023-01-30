@@ -1,0 +1,85 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    border: 1px solid black;
+}
+
+.company-logo {
+    width: 150px;
+}
+
+.user-section {
+    width: 25%;
+    align-items: center;
+    display: flex;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: black;
+    color: #fff;
+    height: 100px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    margin: 10px;
+    height: 300px;
+    width: 250px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.restaurant-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-logo {
+    width: 100%;
+}
+
+.search {
+    margin: 20px;
+}
+
+.search-text {
+    margin-right: 20px;
+}
+
+.shimmer-card {
+    border: 1px solid grey;
+    height: 300px;
+    width: 250px;
+}
+
+.shimmer-logo {
+    background: grey;
+    width: 100%;
+    height: 100%;
+}
+
+.shimmer-text {
+    width: 100%;
+    background: grey;
+}
+
+.btn {
+    height: 50px;
+}
