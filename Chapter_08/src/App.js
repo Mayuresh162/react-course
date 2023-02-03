@@ -9,7 +9,6 @@ import Contact from "./Contact";
 import Error from "./Error";
 import RestaurantMenu from "./RestaurantMenu";
 import Login from "./Login";
-import { Redirect } from "react-router-dom";
 
 function AppLayout() {
   return (
@@ -19,11 +18,6 @@ function AppLayout() {
       <Footer />
     </>
   );
-}
-
-function navigate(loginDetails) {
-    console.log(loginDetails);
-    <Redirect to={"/"} />
 }
 
 const appRouter = createBrowserRouter([
