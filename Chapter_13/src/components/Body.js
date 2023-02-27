@@ -48,6 +48,7 @@ function Body() {
             </div>
             <div className="flex flex-wrap" data-testid="res-list">
                 {
+                    (filteredRestaurant?.length === 0) ? <h1>No Restaurant found!!</h1> :
                     filteredRestaurant.map(restaurantItem => {
                         return (
                             <Link
